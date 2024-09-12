@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("egrid2016.csv")
+df = pd.read_csv("data/egrid2016.csv")
 print(df.describe())
 
 import matplotlib.pyplot as plt
