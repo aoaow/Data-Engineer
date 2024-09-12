@@ -15,8 +15,15 @@ jobs:
     - name: lint with pylint
       run: |
         make lint
-    - name: GitHub Push
-      uses: ad-m/github-push-action@v0.8.0
+  job1:
+    runs-on: ubuntu-latest
+    permissions:                # Job-level permissions configuration starts here
+      contents: write           # 'write' access to repository contents
+      pull-requests: write      # 'write' access to pull requests
+    steps:
+      - uses: actions/checkout@v4
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.8.0
             
 
 
