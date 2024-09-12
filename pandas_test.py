@@ -15,4 +15,4 @@ plt.show()
 from ydata_profiling import ProfileReport
 profile = ProfileReport(df, title="profile report")
 profile.to_notebook_ifame()
-
+profile.to_file("egrid_data.pdf")
