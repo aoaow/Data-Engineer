@@ -7,3 +7,4 @@ pandas
 ydata_profiling
 IPython
 ipywidgets
+markdownify
