@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 
 plt.scatter(df["CAPFAC"], df["PLNGENAN"])
 plt.show()
+plt.savefig("descriptive_data.pdf")
 
 from ydata_profiling import ProfileReport
 profile = ProfileReport(df, title="profile report")

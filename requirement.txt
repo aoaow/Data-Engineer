@@ -5,3 +5,5 @@ black
 pytest-cov
 pandas
 ydata_profiling
+IPython
+ipywidgets
