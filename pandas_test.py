@@ -10,7 +10,7 @@ plt.xlabel("CAPFAC")
 plt.ylabel("PLNGENAN")
 plt.title("Scatter Plot of CAPFAC and PLNGENAN")
 plt.show()
-plt.savefig("descriptive_data.pdf")
+plt.savefig("egrid.png")
 
 from ydata_profiling import ProfileReport
 profile = ProfileReport(df, title="profile report")
