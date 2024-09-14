@@ -39,30 +39,30 @@ Variable types
 
 Alerts
 
-| [`CAPFAC`](#pp_var_-3383776381704813619) is highly overall correlated with `PLNGENAN` | High correlation |
-| [`PLNGENAN`](#pp_var_-6480695035602070163) is highly overall correlated with `CAPFAC` | High correlation |
-| [`CAPFAC`](#pp_var_-3383776381704813619) has 1671 (17\.2%) missing values | Missing |
-| [`PLNGENAN`](#pp_var_-6480695035602070163) has 1671 (17\.2%) missing values | Missing |
-| [`PLCO2EQA`](#pp_var_-6553058335258716120) has 2040 (21\.0%) missing values | Missing |
-| [`SEQPLT16`](#pp_var_-4785281932488534069) is uniformly distributed | Uniform |
-| [`SEQPLT16`](#pp_var_-4785281932488534069) has unique values | Unique |
-| [`CAPFAC`](#pp_var_-3383776381704813619) has 527 (5\.4%) zeros | Zeros |
-| [`PLNGENAN`](#pp_var_-6480695035602070163) has 323 (3\.3%) zeros | Zeros |
+| [`CAPFAC`](#pp_var_282217916329619202) is highly overall correlated with `PLNGENAN` | High correlation |
+| [`PLNGENAN`](#pp_var_1204667224176440997) is highly overall correlated with `CAPFAC` | High correlation |
+| [`CAPFAC`](#pp_var_282217916329619202) has 1671 (17\.2%) missing values | Missing |
+| [`PLNGENAN`](#pp_var_1204667224176440997) has 1671 (17\.2%) missing values | Missing |
+| [`PLCO2EQA`](#pp_var_1156792056575171424) has 2040 (21\.0%) missing values | Missing |
+| [`SEQPLT16`](#pp_var_992810307339642925) is uniformly distributed | Uniform |
+| [`SEQPLT16`](#pp_var_992810307339642925) has unique values | Unique |
+| [`CAPFAC`](#pp_var_282217916329619202) has 527 (5\.4%) zeros | Zeros |
+| [`PLNGENAN`](#pp_var_1204667224176440997) has 323 (3\.3%) zeros | Zeros |
 
 Reproduction
 
 
 
-| Analysis started | 2024\-09\-14 20:49:04\.345505 |
+| Analysis started | 2024\-09\-14 20:55:40\.788063 |
 | --- | --- |
-| Analysis finished | 2024\-09\-14 20:49:06\.377084 |
-| Duration | 2\.03 seconds |
+| Analysis finished | 2024\-09\-14 20:55:43\.479228 |
+| Duration | 2\.69 seconds |
 | Software version | [ydata\-profiling vv4\.10\.0](https://github.com/ydataai/ydata-profiling) |
 | Download configuration | [config.json](data:text/plain;charset=utf-8,%7B%22title%22%3A%20%22profile%20report%22%2C%20%22dataset%22%3A%20%7B%22description%22%3A%20%22%22%2C%20%22creator%22%3A%20%22%22%2C%20%22author%22%3A%20%22%22%2C%20%22copyright_holder%22%3A%20%22%22%2C%20%22copyright_year%22%3A%20%22%22%2C%20%22url%22%3A%20%22%22%7D%2C%20%22variables%22%3A%20%7B%22descriptions%22%3A%20%7B%7D%7D%2C%20%22infer_dtypes%22%3A%20true%2C%20%22show_variable_description%22%3A%20true%2C%20%22pool_size%22%3A%200%2C%20%22progress_bar%22%3A%20true%2C%20%22vars%22%3A%20%7B%22num%22%3A%20%7B%22quantiles%22%3A%20%5B0.05%2C%200.25%2C%200.5%2C%200.75%2C%200.95%5D%2C%20%22skewness_threshold%22%3A%2020%2C%20%22low_categorical_threshold%22%3A%205%2C%20%22chi_squared_threshold%22%3A%200.999%7D%2C%20%22text%22%3A%20%7B%22length%22%3A%20true%2C%20%22words%22%3A%20true%2C%20%22characters%22%3A%20true%2C%20%22redact%22%3A%20false%7D%2C%20%22cat%22%3A%20%7B%22length%22%3A%20true%2C%20%22characters%22%3A%20true%2C%20%22words%22%3A%20true%2C%20%22cardinality_threshold%22%3A%2050%2C%20%22percentage_cat_threshold%22%3A%200.5%2C%20%22imbalance_threshold%22%3A%200.5%2C%20%22n_obs%22%3A%205%2C%20%22chi_squared_threshold%22%3A%200.999%2C%20%22coerce_str_to_date%22%3A%20false%2C%20%22redact%22%3A%20false%2C%20%22histogram_largest%22%3A%2050%2C%20%22stop_words%22%3A%20%5B%5D%7D%2C%20%22image%22%3A%20%7B%22active%22%3A%20false%2C%20%22exif%22%3A%20true%2C%20%22hash%22%3A%20true%7D%2C%20%22bool%22%3A%20%7B%22n_obs%22%3A%203%2C%20%22imbalance_threshold%22%3A%200.5%2C%20%22mappings%22%3A%20%7B%22t%22%3A%20true%2C%20%22f%22%3A%20false%2C%20%22yes%22%3A%20true%2C%20%22no%22%3A%20false%2C%20%22y%22%3A%20true%2C%20%22n%22%3A%20false%2C%20%22true%22%3A%20true%2C%20%22false%22%3A%20false%7D%7D%2C%20%22path%22%3A%20%7B%22active%22%3A%20false%7D%2C%20%22file%22%3A%20%7B%22active%22%3A%20false%7D%2C%20%22url%22%3A%20%7B%22active%22%3A%20false%7D%2C%20%22timeseries%22%3A%20%7B%22active%22%3A%20false%2C%20%22sortby%22%3A%20null%2C%20%22autocorrelation%22%3A%200.7%2C%20%22lags%22%3A%20%5B1%2C%207%2C%2012%2C%2024%2C%2030%5D%2C%20%22significance%22%3A%200.05%2C%20%22pacf_acf_lag%22%3A%20100%7D%7D%2C%20%22sort%22%3A%20null%2C%20%22missing_diagrams%22%3A%20%7B%22bar%22%3A%20true%2C%20%22matrix%22%3A%20true%2C%20%22heatmap%22%3A%20true%7D%2C%20%22correlation_table%22%3A%20true%2C%20%22correlations%22%3A%20%7B%22auto%22%3A%20%7B%22key%22%3A%20%22auto%22%2C%20%22calculate%22%3A%20true%2C%20%22warn_high_correlations%22%3A%2010%2C%20%22threshold%22%3A%200.5%2C%20%22n_bins%22%3A%2010%7D%2C%20%22spearman%22%3A%20%7B%22key%22%3A%20%22spearman%22%2C%20%22calculate%22%3A%20false%2C%20%22warn_high_correlations%22%3A%2010%2C%20%22threshold%22%3A%200.5%2C%20%22n_bins%22%3A%2010%7D%2C%20%22pearson%22%3A%20%7B%22key%22%3A%20%22pearson%22%2C%20%22calculate%22%3A%20false%2C%20%22warn_high_correlations%22%3A%2010%2C%20%22threshold%22%3A%200.5%2C%20%22n_bins%22%3A%2010%7D%2C%20%22phi_k%22%3A%20%7B%22key%22%3A%20%22phi_k%22%2C%20%22calculate%22%3A%20false%2C%20%22warn_high_correlations%22%3A%2010%2C%20%22threshold%22%3A%200.5%2C%20%22n_bins%22%3A%2010%7D%2C%20%22cramers%22%3A%20%7B%22key%22%3A%20%22cramers%22%2C%20%22calculate%22%3A%20false%2C%20%22warn_high_correlations%22%3A%2010%2C%20%22threshold%22%3A%200.5%2C%20%22n_bins%22%3A%2010%7D%2C%20%22kendall%22%3A%20%7B%22key%22%3A%20%22kendall%22%2C%20%22calculate%22%3A%20false%2C%20%22warn_high_correlations%22%3A%2010%2C%20%22threshold%22%3A%200.5%2C%20%22n_bins%22%3A%2010%7D%7D%2C%20%22interactions%22%3A%20%7B%22continuous%22%3A%20true%2C%20%22targets%22%3A%20%5B%5D%7D%2C%20%22categorical_maximum_correlation_distinct%22%3A%20100%2C%20%22memory_deep%22%3A%20false%2C%20%22plot%22%3A%20%7B%22missing%22%3A%20%7B%22force_labels%22%3A%20true%2C%20%22cmap%22%3A%20%22RdBu%22%7D%2C%20%22image_format%22%3A%20%22svg%22%2C%20%22correlation%22%3A%20%7B%22cmap%22%3A%20%22RdBu%22%2C%20%22bad%22%3A%20%22%23000000%22%7D%2C%20%22dpi%22%3A%20800%2C%20%22histogram%22%3A%20%7B%22bins%22%3A%2050%2C%20%22max_bins%22%3A%20250%2C%20%22x_axis_labels%22%3A%20true%2C%20%22density%22%3A%20false%7D%2C%20%22scatter_threshold%22%3A%201000%2C%20%22cat_freq%22%3A%20%7B%22show%22%3A%20true%2C%20%22type%22%3A%20%22bar%22%2C%20%22max_unique%22%3A%2010%2C%20%22colors%22%3A%20null%7D%2C%20%22font_path%22%3A%20null%7D%2C%20%22duplicates%22%3A%20%7B%22head%22%3A%2010%2C%20%22key%22%3A%20%22%23%20duplicates%22%7D%2C%20%22samples%22%3A%20%7B%22head%22%3A%2010%2C%20%22tail%22%3A%2010%2C%20%22random%22%3A%200%7D%2C%20%22reject_variables%22%3A%20true%2C%20%22n_obs_unique%22%3A%2010%2C%20%22n_freq_table_max%22%3A%2010%2C%20%22n_extreme_obs%22%3A%2010%2C%20%22report%22%3A%20%7B%22precision%22%3A%208%7D%2C%20%22html%22%3A%20%7B%22style%22%3A%20%7B%22primary_colors%22%3A%20%5B%22%23377eb8%22%2C%20%22%23e41a1c%22%2C%20%22%234daf4a%22%5D%2C%20%22logo%22%3A%20%22%22%2C%20%22theme%22%3A%20null%7D%2C%20%22navbar_show%22%3A%20true%2C%20%22minify_html%22%3A%20true%2C%20%22use_local_assets%22%3A%20true%2C%20%22inline%22%3A%20true%2C%20%22assets_prefix%22%3A%20null%2C%20%22assets_path%22%3A%20null%2C%20%22full_width%22%3A%20false%7D%2C%20%22notebook%22%3A%20%7B%22iframe%22%3A%20%7B%22height%22%3A%20%22800px%22%2C%20%22width%22%3A%20%22100%25%22%2C%20%22attribute%22%3A%20%22srcdoc%22%7D%7D%7D) |
 
 # Variables
 
-Select ColumnsSEQPLT16PSTATABBPNAMEPLPRMFLCAPFACNAMEPCAPPLNGENANPLCO2EQA[SEQPLT16](#pp_var_-4785281932488534069)  
+Select ColumnsSEQPLT16PSTATABBPNAMEPLPRMFLCAPFACNAMEPCAPPLNGENANPLCO2EQA[SEQPLT16](#pp_var_992810307339642925)  
 Real number (ℝ)
 
 `UNIFORM`  `UNIQUE`  
@@ -89,10 +89,10 @@ Real number (ℝ)
 | Negative (%) | 0\.0% |
 | Memory size | 76\.0 KiB |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:06\.468684image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/ More details * [Statistics](#-4785281932488534069bottom--4785281932488534069statistics)
-* [Histogram](#-4785281932488534069bottom--4785281932488534069histogram)
-* [Common values](#-4785281932488534069bottom--4785281932488534069common_values)
-* [Extreme values](#-4785281932488534069bottom--4785281932488534069extreme_values)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:43\.619555image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ More details * [Statistics](#992810307339642925bottom-992810307339642925statistics)
+* [Histogram](#992810307339642925bottom-992810307339642925histogram)
+* [Common values](#992810307339642925bottom-992810307339642925common_values)
+* [Extreme values](#992810307339642925bottom-992810307339642925extreme_values)
 
 Quantile statistics
 
@@ -124,24 +124,24 @@ Descriptive statistics
 | Variance | 7856199\.2 |
 | Monotonicity | Strictly increasing |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:06\.645854image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/**Histogram with fixed size bins** (bins\=50\) 
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:43\.866201image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/**Histogram with fixed size bins** (bins\=50\) 
 
 | Value | Count | Frequency (%) |
 | --- | --- | --- |
-| 9709 | 1 | \< 0\.1% |
 | 1 | 1 | \< 0\.1% |
-| 2 | 1 | \< 0\.1% |
-| 3 | 1 | \< 0\.1% |
-| 4 | 1 | \< 0\.1% |
-| 5 | 1 | \< 0\.1% |
-| 6 | 1 | \< 0\.1% |
-| 7 | 1 | \< 0\.1% |
-| 8 | 1 | \< 0\.1% |
-| 9 | 1 | \< 0\.1% |
+| 6468 | 1 | \< 0\.1% |
+| 6470 | 1 | \< 0\.1% |
+| 6471 | 1 | \< 0\.1% |
+| 6472 | 1 | \< 0\.1% |
+| 6473 | 1 | \< 0\.1% |
+| 6474 | 1 | \< 0\.1% |
+| 6475 | 1 | \< 0\.1% |
+| 6476 | 1 | \< 0\.1% |
+| 6477 | 1 | \< 0\.1% |
 | Other values (9699\) | 9699 | 99\.9% |
 
-* [Minimum 10 values](#-4785281932488534069extreme_values--4785281932488534069firstn)
-* [Maximum 10 values](#-4785281932488534069extreme_values--4785281932488534069lastn)
+* [Minimum 10 values](#992810307339642925extreme_values-992810307339642925firstn)
+* [Maximum 10 values](#992810307339642925extreme_values-992810307339642925lastn)
 
 
 
@@ -173,7 +173,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:06\.6
 | 9701 | 1 | \< 0\.1% |
 | 9700 | 1 | \< 0\.1% |
 
-[PSTATABB](#pp_var_6848123014264141803)  
+[PSTATABB](#pp_var_910726156288946841)  
 Text
 
 
@@ -185,9 +185,9 @@ Text
 | Missing (%) | 0\.0% |
 | Memory size | 76\.0 KiB |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:06\.809497image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/ More details * [Overview](#6848123014264141803bottom-6848123014264141803overview)
-* [Words](#6848123014264141803bottom-6848123014264141803word)
-* [Characters](#6848123014264141803bottom-6848123014264141803characters)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:44\.094410image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ More details * [Overview](#910726156288946841bottom-910726156288946841overview)
+* [Words](#910726156288946841bottom-910726156288946841word)
+* [Characters](#910726156288946841bottom-910726156288946841characters)
 
 Length
 
@@ -245,10 +245,10 @@ Sample
 | mi | 254 | 2\.6% |
 | Other values (41\) | 4654 | 47\.9% |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:07\.075588image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/* [Characters](#6848123014264141803unicode-6848123014264141803characters)
-* [Categories](#6848123014264141803unicode-6848123014264141803categories)
-* [Scripts](#6848123014264141803unicode-6848123014264141803scripts)
-* [Blocks](#6848123014264141803unicode-6848123014264141803blocks)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:44\.509393image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/* [Characters](#910726156288946841unicode-910726156288946841characters)
+* [Categories](#910726156288946841unicode-910726156288946841categories)
+* [Scripts](#910726156288946841unicode-910726156288946841scripts)
+* [Blocks](#910726156288946841unicode-910726156288946841blocks)
 
 #### Most occurring characters
 
@@ -352,7 +352,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:07\.0
 | X | 541 | 2\.8% |
 | Other values (14\) | 4177 | 21\.5% |
 
-[PNAME](#pp_var_4603620682108509585)  
+[PNAME](#pp_var_-8601820459787318780)  
 Text
 
 
@@ -364,9 +364,9 @@ Text
 | Missing (%) | 0\.0% |
 | Memory size | 76\.0 KiB |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:07\.426912image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/ More details * [Overview](#4603620682108509585bottom-4603620682108509585overview)
-* [Words](#4603620682108509585bottom-4603620682108509585word)
-* [Characters](#4603620682108509585bottom-4603620682108509585characters)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:44\.906722image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ More details * [Overview](#-8601820459787318780bottom--8601820459787318780overview)
+* [Words](#-8601820459787318780bottom--8601820459787318780word)
+* [Characters](#-8601820459787318780bottom--8601820459787318780characters)
 
 Length
 
@@ -424,10 +424,10 @@ Sample
 | center | 391 | 1\.4% |
 | Other values (6951\) | 21976 | 76\.0% |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:07\.940358image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/* [Characters](#4603620682108509585unicode-4603620682108509585characters)
-* [Categories](#4603620682108509585unicode-4603620682108509585categories)
-* [Scripts](#4603620682108509585unicode-4603620682108509585scripts)
-* [Blocks](#4603620682108509585unicode-4603620682108509585blocks)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:45\.555378image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/* [Characters](#-8601820459787318780unicode--8601820459787318780characters)
+* [Categories](#-8601820459787318780unicode--8601820459787318780categories)
+* [Scripts](#-8601820459787318780unicode--8601820459787318780scripts)
+* [Blocks](#-8601820459787318780unicode--8601820459787318780blocks)
 
 #### Most occurring characters
 
@@ -531,7 +531,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:07\.9
 | s | 4574 | 2\.5% |
 | Other values (64\) | 65696 | 36\.3% |
 
-[PLPRMFL](#pp_var_-689674527522824660)  
+[PLPRMFL](#pp_var_5196386986288276269)  
 Categorical
 
 
@@ -553,10 +553,10 @@ Categorical
 | DFO | 838 |
 | Other values (32\) | 1649 |
 
- More details * [Overview](#-689674527522824660bottom--689674527522824660overview)
-* [Categories](#-689674527522824660bottom--689674527522824660string)
-* [Words](#-689674527522824660bottom--689674527522824660word)
-* [Characters](#-689674527522824660bottom--689674527522824660characters)
+ More details * [Overview](#5196386986288276269bottom-5196386986288276269overview)
+* [Categories](#5196386986288276269bottom-5196386986288276269string)
+* [Words](#5196386986288276269bottom-5196386986288276269word)
+* [Characters](#5196386986288276269bottom-5196386986288276269characters)
 
 Length
 
@@ -618,7 +618,7 @@ Sample
 
 #### Length
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:08\.107235image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/ Histogram of lengths of the category 
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:45\.786049image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category 
 
 | Value | Count | Frequency (%) |
 | --- | --- | --- |
@@ -634,10 +634,10 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:08\.1
 | obg | 95 | 1\.0% |
 | Other values (27\) | 636 | 6\.6% |
 
-* [Characters](#-689674527522824660unicode--689674527522824660characters)
-* [Categories](#-689674527522824660unicode--689674527522824660categories)
-* [Scripts](#-689674527522824660unicode--689674527522824660scripts)
-* [Blocks](#-689674527522824660unicode--689674527522824660blocks)
+* [Characters](#5196386986288276269unicode-5196386986288276269characters)
+* [Categories](#5196386986288276269unicode-5196386986288276269categories)
+* [Scripts](#5196386986288276269unicode-5196386986288276269scripts)
+* [Blocks](#5196386986288276269unicode-5196386986288276269blocks)
 
 #### Most occurring characters
 
@@ -741,7 +741,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:08\.1
 | O | 1093 | 4\.1% |
 | Other values (12\) | 2029 | 7\.6% |
 
-[CAPFAC](#pp_var_-3383776381704813619)  
+[CAPFAC](#pp_var_282217916329619202)  
 Real number (ℝ)
 
 `HIGH CORRELATION`  `MISSING`  `ZEROS`  
@@ -768,10 +768,10 @@ Real number (ℝ)
 | Negative (%) | 0\.0% |
 | Memory size | 76\.0 KiB |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:08\.242197image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/ More details * [Statistics](#-3383776381704813619bottom--3383776381704813619statistics)
-* [Histogram](#-3383776381704813619bottom--3383776381704813619histogram)
-* [Common values](#-3383776381704813619bottom--3383776381704813619common_values)
-* [Extreme values](#-3383776381704813619bottom--3383776381704813619extreme_values)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:46\.002045image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ More details * [Statistics](#282217916329619202bottom-282217916329619202statistics)
+* [Histogram](#282217916329619202bottom-282217916329619202histogram)
+* [Common values](#282217916329619202bottom-282217916329619202common_values)
+* [Extreme values](#282217916329619202bottom-282217916329619202extreme_values)
 
 Quantile statistics
 
@@ -803,7 +803,7 @@ Descriptive statistics
 | Variance | 0\.056818329 |
 | Monotonicity | Not monotonic |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:08\.525172image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/**Histogram with fixed size bins** (bins\=50\) 
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:46\.256375image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/**Histogram with fixed size bins** (bins\=50\) 
 
 | Value | Count | Frequency (%) |
 | --- | --- | --- |
@@ -816,12 +816,12 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:08\.5
 | 0\.0004 | 34 | 0\.4% |
 | 0\.0007 | 32 | 0\.3% |
 | 0\.0008 | 27 | 0\.3% |
-| 0\.001 | 24 | 0\.2% |
+| 0\.0011 | 24 | 0\.2% |
 | Other values (4382\) | 7181 | 74\.0% |
 | (Missing) | 1671 | 17\.2% |
 
-* [Minimum 10 values](#-3383776381704813619extreme_values--3383776381704813619firstn)
-* [Maximum 10 values](#-3383776381704813619extreme_values--3383776381704813619lastn)
+* [Minimum 10 values](#282217916329619202extreme_values-282217916329619202firstn)
+* [Maximum 10 values](#282217916329619202extreme_values-282217916329619202lastn)
 
 
 
@@ -853,7 +853,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:08\.5
 | 0\.9817 | 1 | \< 0\.1% |
 | 0\.9744 | 1 | \< 0\.1% |
 
-[NAMEPCAP](#pp_var_1979560898176643920)  
+[NAMEPCAP](#pp_var_5584643432253676077)  
 Text
 
 
@@ -865,9 +865,9 @@ Text
 | Missing (%) | 0\.1% |
 | Memory size | 76\.0 KiB |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:08\.970931image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/ More details * [Overview](#1979560898176643920bottom-1979560898176643920overview)
-* [Words](#1979560898176643920bottom-1979560898176643920word)
-* [Characters](#1979560898176643920bottom-1979560898176643920characters)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:46\.695545image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ More details * [Overview](#5584643432253676077bottom-5584643432253676077overview)
+* [Words](#5584643432253676077bottom-5584643432253676077word)
+* [Characters](#5584643432253676077bottom-5584643432253676077characters)
 
 Length
 
@@ -920,15 +920,15 @@ Sample
 | 1\.5 | 212 | 2\.2% |
 | 20 | 185 | 1\.9% |
 | 4 | 137 | 1\.4% |
-| 10 | 121 | 1\.2% |
 | 1\.6 | 121 | 1\.2% |
+| 10 | 121 | 1\.2% |
 | 1\.8 | 111 | 1\.1% |
 | Other values (2304\) | 7500 | 77\.4% |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:09\.481403image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/* [Characters](#1979560898176643920unicode-1979560898176643920characters)
-* [Categories](#1979560898176643920unicode-1979560898176643920categories)
-* [Scripts](#1979560898176643920unicode-1979560898176643920scripts)
-* [Blocks](#1979560898176643920unicode-1979560898176643920blocks)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:47\.357968image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/* [Characters](#5584643432253676077unicode-5584643432253676077characters)
+* [Categories](#5584643432253676077unicode-5584643432253676077categories)
+* [Scripts](#5584643432253676077unicode-5584643432253676077scripts)
+* [Blocks](#5584643432253676077unicode-5584643432253676077blocks)
 
 #### Most occurring characters
 
@@ -1032,7 +1032,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:09\.4
 | 9 | 1424 | 4\.7% |
 | Other values (2\) | 1801 | 6\.0% |
 
-[PLNGENAN](#pp_var_-6480695035602070163)  
+[PLNGENAN](#pp_var_1204667224176440997)  
 Real number (ℝ)
 
 `HIGH CORRELATION`  `MISSING`  `ZEROS`  
@@ -1059,10 +1059,10 @@ Real number (ℝ)
 | Negative (%) | 1\.8% |
 | Memory size | 76\.0 KiB |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:09\.653404image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/ More details * [Statistics](#-6480695035602070163bottom--6480695035602070163statistics)
-* [Histogram](#-6480695035602070163bottom--6480695035602070163histogram)
-* [Common values](#-6480695035602070163bottom--6480695035602070163common_values)
-* [Extreme values](#-6480695035602070163bottom--6480695035602070163extreme_values)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:47\.602189image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ More details * [Statistics](#1204667224176440997bottom-1204667224176440997statistics)
+* [Histogram](#1204667224176440997bottom-1204667224176440997histogram)
+* [Common values](#1204667224176440997bottom-1204667224176440997common_values)
+* [Extreme values](#1204667224176440997bottom-1204667224176440997extreme_values)
 
 Quantile statistics
 
@@ -1094,25 +1094,25 @@ Descriptive statistics
 | Variance | 3\.5345529 × 1012 |
 | Monotonicity | Not monotonic |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:09\.862297image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/**Histogram with fixed size bins** (bins\=50\) 
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:47\.852291image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/**Histogram with fixed size bins** (bins\=50\) 
 
 | Value | Count | Frequency (%) |
 | --- | --- | --- |
 | 0 | 323 | 3\.3% |
-| 3 | 17 | 0\.2% |
 | 8 | 17 | 0\.2% |
+| 3 | 17 | 0\.2% |
 | 1 | 11 | 0\.1% |
 | 4 | 11 | 0\.1% |
 | 14 | 10 | 0\.1% |
 | 7 | 10 | 0\.1% |
-| 30 | 9 | 0\.1% |
 | 5 | 9 | 0\.1% |
-| 10 | 7 | 0\.1% |
+| 30 | 9 | 0\.1% |
+| 57 | 7 | 0\.1% |
 | Other values (6948\) | 7614 | 78\.4% |
 | (Missing) | 1671 | 17\.2% |
 
-* [Minimum 10 values](#-6480695035602070163extreme_values--6480695035602070163firstn)
-* [Maximum 10 values](#-6480695035602070163extreme_values--6480695035602070163lastn)
+* [Minimum 10 values](#1204667224176440997extreme_values-1204667224176440997firstn)
+* [Maximum 10 values](#1204667224176440997extreme_values-1204667224176440997lastn)
 
 
 
@@ -1144,7 +1144,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:09\.8
 | 19884289 | 1 | \< 0\.1% |
 | 19860229 | 1 | \< 0\.1% |
 
-[PLCO2EQA](#pp_var_-6553058335258716120)  
+[PLCO2EQA](#pp_var_1156792056575171424)  
 Text
 
 `MISSING`  
@@ -1158,9 +1158,9 @@ Text
 | Missing (%) | 21\.0% |
 | Memory size | 76\.0 KiB |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:10\.132614image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/ More details * [Overview](#-6553058335258716120bottom--6553058335258716120overview)
-* [Words](#-6553058335258716120bottom--6553058335258716120word)
-* [Characters](#-6553058335258716120bottom--6553058335258716120characters)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:48\.261846image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ More details * [Overview](#1156792056575171424bottom-1156792056575171424overview)
+* [Words](#1156792056575171424bottom-1156792056575171424word)
+* [Characters](#1156792056575171424bottom-1156792056575171424characters)
 
 Length
 
@@ -1207,9 +1207,9 @@ Sample
 | Value | Count | Frequency (%) |
 | --- | --- | --- |
 | 0 | 4580 | 59\.7% |
-| 6 | 21 | 0\.3% |
 | 4 | 21 | 0\.3% |
 | 3 | 21 | 0\.3% |
+| 6 | 21 | 0\.3% |
 | 5 | 18 | 0\.2% |
 | 9 | 14 | 0\.2% |
 | 16 | 13 | 0\.2% |
@@ -1218,10 +1218,10 @@ Sample
 | 10 | 12 | 0\.2% |
 | Other values (2594\) | 2944 | 38\.4% |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:10\.527328image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/* [Characters](#-6553058335258716120unicode--6553058335258716120characters)
-* [Categories](#-6553058335258716120unicode--6553058335258716120categories)
-* [Scripts](#-6553058335258716120unicode--6553058335258716120scripts)
-* [Blocks](#-6553058335258716120unicode--6553058335258716120blocks)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:48\.961971image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/* [Characters](#1156792056575171424unicode-1156792056575171424characters)
+* [Categories](#1156792056575171424unicode-1156792056575171424categories)
+* [Scripts](#1156792056575171424unicode-1156792056575171424scripts)
+* [Blocks](#1156792056575171424unicode-1156792056575171424blocks)
 
 #### Most occurring characters
 
@@ -1331,22 +1331,22 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:10\.5
 * [SEQPLT16](#interactions_seqplt16-interactions_seqplt16_seqplt16)
 * [CAPFAC](#interactions_seqplt16-interactions_seqplt16_capfac)
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:05\.609899image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:04\.702866image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:05\.181110image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/* [PLNGENAN](#interactions_capfac-interactions_capfac_plngenan)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:42\.295803image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:41\.131232image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:41\.795289image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/* [PLNGENAN](#interactions_capfac-interactions_capfac_plngenan)
 * [SEQPLT16](#interactions_capfac-interactions_capfac_seqplt16)
 * [CAPFAC](#interactions_capfac-interactions_capfac_capfac)
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:05\.714314image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:04\.957615image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:05\.296426image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/* [PLNGENAN](#interactions_plngenan-interactions_plngenan_plngenan)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:42\.451442image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:41\.460627image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:41\.955911image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/* [PLNGENAN](#interactions_plngenan-interactions_plngenan_plngenan)
 * [SEQPLT16](#interactions_plngenan-interactions_plngenan_seqplt16)
 * [CAPFAC](#interactions_plngenan-interactions_plngenan_capfac)
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:05\.839552image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:05\.070696image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:05\.410250image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/# Correlations
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:42\.709647image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:41\.630369image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:42\.124622image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/# Correlations
 
 * [Auto](#correlations_tab-auto_diagram_table)
 
 * [Heatmap](#auto_diagram_table-auto_diagram)
 * [Table](#auto_diagram_table-auto_table)
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:10\.623066image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:49\.125565image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
 
 |  | CAPFAC | PLNGENAN | PLPRMFL | SEQPLT16 |
 | --- | --- | --- | --- | --- |
@@ -1361,7 +1361,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:10\.6
 * [Matrix](#missing-matrix)
 * [Heatmap](#missing-heatmap)
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:05\.984377image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/ A simple visualization of nullity by column. xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:06\.150509image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/ Nullity matrix is a data\-dense display which lets you quickly visually pick out patterns in data completion. xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:49:06\.293033image/svg\+xmlMatplotlib v3\.9\.2, https://matplotlib.org/ The correlation heatmap measures nullity correlation: how strongly the presence or absence of one variable affects the presence of another. # Sample
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:42\.934052image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ A simple visualization of nullity by column. xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:43\.163451image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Nullity matrix is a data\-dense display which lets you quickly visually pick out patterns in data completion. xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T20:55:43\.363249image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ The correlation heatmap measures nullity correlation: how strongly the presence or absence of one variable affects the presence of another. # Sample
 
 * [First rows](#sample-head)
 * [Last rows](#sample-tail)
