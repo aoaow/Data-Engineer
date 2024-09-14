@@ -1,29 +1,25 @@
-this is an assignment to build test repository for DE
+# Purpose of Project
+This is an assignment to build test repository for DE. 
+## Week2 update: 
+I created two py files to test the make file and CI actions: "hellp.py" and "test_hello.py". The "hello.py" contains a function to add two parameters provided, and the "test_hello.py" contains assert statements to check if the sum is correct.
+## Week3 update: 
+I performed EDA on the egrid data in the file "pandas_test.py". The detailed report is in the "profile report.pdf" in the main branch.
 
-# requirements
+# Preparation
 
-Make sure you are in python 3.9 environment
-All the necessary packages are included in the requirement.txt
+Go through the make file.
 
-# pandas_test.py
+# Egrid dataset
 
-In this file, I analyze the electric grid data, generating a basic summary for the numeric data. I also plot the scatter plot between CAPFAC and PLNGENAN. In the end, I produced a summary pdf for this data, which you can check under the name profile_report.pdf.
+## Visualizations
 
-# hello.py
+The below visualization can be obtained by the pandas_test.py and it is saved as "descriptive_data.pdf". You can check more detailed EDA in the file "profile report.pdf".
+<img width="648" alt="image" src="https://github.com/user-attachments/assets/a10d0609-5d0b-4c3d-9fb1-011c728d2b59">
 
-this file contains a function to add,
-    parameter: (x, y) to be any numeric value
-    return their sum
 
-# test_hello.py
+## Summary Statistics
+<img width="334" alt="image" src="https://github.com/user-attachments/assets/05a341cc-5c45-4601-85e9-d856abf59a7b">
 
-this file run test on hello.py
-To be specific, it provide assertion test for several values of them
-
-# Gitlab Actions
-
-Go through the make of this repo
-Also includes a github push action for code sync
 
 
 
