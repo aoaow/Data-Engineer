@@ -6,6 +6,9 @@ print(df.describe())
 import matplotlib.pyplot as plt
 
 plt.scatter(df["CAPFAC"], df["PLNGENAN"])
+plt.xlabel("CAPFAC")
+plt.ylabel("PLNGENAN")
+plt.title("Scatter Plot of CAPFAC and PLNGENAN")
 plt.show()
 plt.savefig("descriptive_data.pdf")
 
