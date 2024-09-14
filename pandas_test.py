@@ -15,4 +15,4 @@ plt.savefig("egrid.png")
 from ydata_profiling import ProfileReport
 profile = ProfileReport(df, title="profile report")
 profile.to_notebook_iframe()
-profile.to_file("egrid_data.html")
+profile.to_file("egrid_summary.md")
