@@ -19,10 +19,10 @@ profile.to_file("egrid_summary.html")
 
 import markdownify
 
-with open('egrid_summary.html', 'r') as f:
+with open('egrid_summary.html', 'r', encoding="utf-8") as f:
     html_string = f.read()
 
 markdown_string = markdownify.markdownify(html_string, heading_style='ATX')
 
-with open('egrid_summary.md', 'w') as f:
+with open('egrid_summary.md', 'w', encoding="utf-8") as f:
     f.write(markdown_string)

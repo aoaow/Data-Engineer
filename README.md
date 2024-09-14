@@ -3,7 +3,7 @@ This is an assignment to build test repository for DE.
 ## Week2 update: 
 I created two py files to test the make file and CI actions: "hellp.py" and "test_hello.py". The "hello.py" contains a function to add two parameters provided, and the "test_hello.py" contains assert statements to check if the sum is correct.
 ## Week3 update: 
-I performed EDA on the egrid data in the file "pandas_test.py". The detailed report is in the "profile report.pdf" in the main branch.
+I performed EDA on the egrid data in the file "pandas_test.py" and produced the EDA result to both html and md file in "egrid_summary.html" and "egrid_summary.md". 
 
 # Preparation
 
@@ -13,7 +13,7 @@ Go through the make file.
 
 ## Visualizations
 
-The below visualization can be obtained by the pandas_test.py and it is saved as "descriptive_data.pdf". You can check more detailed EDA in the file "profile report.pdf".
+The below visualization can be obtained by the pandas_test.py and it is saved as "descriptive_data.pdf". You can check more detailed EDA in the file "profile report.pdf" and "egrid_summary.md".
 <img width="648" alt="image" src="https://github.com/user-attachments/assets/a10d0609-5d0b-4c3d-9fb1-011c728d2b59">
 
 
