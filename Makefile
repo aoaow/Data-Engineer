@@ -11,13 +11,13 @@ lint:
 
 generate_and_push:
 	# Create the markdown file (assuming it's generated from the plot)
-	python test_main.py  # Replace with the actual command to generate the markdown
+	python pandas_test.py  # Replace with the actual command to generate the markdown
 
 	# Add, commit, and push the generated files to GitHub
 	@if [ -n "$$(git status --porcelain)" ]; then \
 		git config --local user.email "action@github.com"; \
 		git config --local user.name "GitHub Action"; \
-		git add congress.png congress_summary.md; \
+		git add egrid.png egrid_summary.md; \
 		git commit -m "Add generated plot and report"; \
 		git push; \
 	else \
