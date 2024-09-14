@@ -1,7 +1,9 @@
 # Purpose of Project
 This is an assignment to build test repository for DE. 
-Week2 update: I created two py files to test the make file and CI actions: hellp.py and test_hello.py. The hello.py contains a function to add two parameters provided, and the test_hello contains assert statements to check if the sum is correct.
-Week3 update: I performed EDA on the egrid data in the file pandas_test.py. The detailed report is in the profile report.pdf in the main branch.
+## Week2 update: 
+I created two py files to test the make file and CI actions: hellp.py and test_hello.py. The hello.py contains a function to add two parameters provided, and the test_hello contains assert statements to check if the sum is correct.
+## Week3 update: 
+I performed EDA on the egrid data in the file pandas_test.py. The detailed report is in the profile report.pdf in the main branch.
 
 # Preparation
 
