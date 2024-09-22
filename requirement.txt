@@ -8,3 +8,5 @@ ydata_profiling
 IPython
 ipywidgets
 markdownify
+polars
+pyarrow
