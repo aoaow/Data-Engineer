@@ -19,7 +19,6 @@ plt.savefig("egrid.png")
 
 from ydata_profiling import ProfileReport
 # convert pl df to pd df
-import pandas as pd
 df = df.to_pandas()
 profile = ProfileReport(df, title="profile report")
 profile.to_notebook_iframe()
