@@ -7,11 +7,13 @@ format:
 
 lint:
 	pylint --disable=R,C pandas_test.py
+	pylint --disable=R,C polars_wk3.py
 
 
 generate_and_push:
 	# Create the markdown file (assuming it's generated from the plot)
 	python pandas_test.py  # Replace with the actual command to generate the markdown
+	python polars_wk3.py
 
 	# Add, commit, and push the generated files to GitHub
 	@if [ -n "$$(git status --porcelain)" ]; then \
