@@ -1,4 +1,4 @@
-mport polars as pl
+import polars as pl
 
 df = pl.read_csv("data/egrid2016.csv", ignore_errors=True)
 
